@@ -15,9 +15,9 @@
 
 <body>
     <!-- navigation bar -->
-    <nav class=navigation>
+    <nav class="navigation p-5">
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
-            style="background-color: #0abab5;">
+            style="background-color: #ffcccc;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">My Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page"
+                            href="#aboutMePic">About</a>
                         <a class="nav-link" href="#">Portfolio</a>
-                        <a class="nav-link" href="#">Resume</a>
                         <a class="nav-link" href="#">Contact</a>
 
                     </div>
@@ -38,18 +38,59 @@
         </nav>
         <!-- end navigation bar -->
 
+        <!-- contains the main content section -->
+        <div class="content pt-5">
 
 
-        <div class="card bg-light text-white">
-            <img src="..." class="card-img" alt="">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a little bit longer.
+
+            <!-- About Me section -->
+            <div class="aboutMe" id="aboutMe">
+                <h2>About Me</h2>
+
+                <img src="images/ProfilePicture.jpg" id="aboutMePic" alt="picture of me">
+
+                <p>
+                    I am a Full Stack Web Developer from northern NJ. I have experience with
+                    HTML, CSS, and JavaScript. With every line of code, I strive to make the web
+                    a
+                    beautiful place.
                 </p>
-                <p class="card-text">Last updated 3 mins ago</p>
+
+                <button type="button"
+                    style="background-color: #ffcccc; color: rgb(109, 107, 107);"
+                    class="btn">Primary</button>
             </div>
+
+            <!-- end About Me section -->
+
+            <hr>
+
+
+
+
+            <!-- Portfolio section -->
+            <h2>Portfolio</h2>
+            <div class=" card" style="width: 18rem;">
+                <img src="images/digital-marketing-meeting.jpg" class="card-img-top"
+                    alt="digital marketing meeting project picture">
+                <div class="card-body p-0">
+
+                </div>
+
+                <!-- end Portfolio section -->
+
+
+
+
+
+                <footer>
+                    <div class="container">Contact Me</div>
+
+            </div>
+            </footer>
+
         </div>
+
 
 
         <script
@@ -57,6 +98,8 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous">
             </script>
+
+        </div>
 
 </body>
 
