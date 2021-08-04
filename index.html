@@ -17,9 +17,9 @@
     <!-- navigation bar -->
     <nav class="navigation p-5">
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
-            style="background-color: #ffcccc;">
+            style="background-color:navy;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">My Portfolio</a>
+                <a class="navbar-brand">Allie Soliz</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +29,8 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page"
                             href="#aboutMePic">About</a>
-                        <a class="nav-link" href="#">Portfolio</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#contactme">Contact</a>
 
                     </div>
                 </div>
@@ -52,13 +52,13 @@
                 <p>
                     I am a Full Stack Web Developer from northern NJ. I have experience with
                     HTML, CSS, and JavaScript. With every line of code, I strive to make the web
-                    a
-                    beautiful place.
+                    a beautiful place.
                 </p>
 
-                <button type="button"
-                    style="background-color: #ffcccc; color: rgb(109, 107, 107);"
-                    class="btn">Primary</button>
+                <button id="resume" style="background-color: darkgrey" class="btn">
+                    <a target="_blank" href="./images/Allie_Soliz_Resume.pdf">Resume</a>
+                </button>
+
             </div>
 
             <!-- end About Me section -->
@@ -66,27 +66,82 @@
             <hr>
 
 
-
-
             <!-- Portfolio section -->
-            <h2>Portfolio</h2>
-            <div class=" card" style="width: 18rem;">
-                <img src="images/digital-marketing-meeting.jpg" class="card-img-top"
-                    alt="digital marketing meeting project picture">
-                <div class="card-body p-0">
+            <div class="portfolio" id="portfolio">
+                <h2>Portfolio</h2>
+
+                <div class="projectsContainer">
+
+                    <div class="projects" id="project1">
+                        <a target="_blank" href="https://azs6189.github.io/Code-Quiz/">
+                            <img src="images/coding-quiz-challenge.png"
+                                alt="digital marketing meeting project picture">
+                            <div class="text-block">
+                                <h3>Code Quiz</h3>
+                                <p>HTML/CSS/JS</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projects" id="project2">
+                        <a target="_blank" href="https://azs6189.github.io/Password-Generator/">
+                            <img src="images/password-generator.png"
+                                alt="digital marketing meeting project picture">
+                            <div class="text-block">
+                                <h3>Password Generatorr</h3>
+                                <p>HTML/CSS/JS</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="projects" id="project2">
+                        <a target="_blank" href="https://azs6189.github.io/Work-Day-Scheduler/">
+                            <img src="images/work-day-scheduler.png"
+                                alt="digital marketing meeting project picture">
+                            <div class="text-block">
+                                <h3>Work Day Scheduler</h3>
+                                <p>HTML/CSS/JS</p>
+                            </div>
+                        </a>
+                    </div>
 
                 </div>
-
-                <!-- end Portfolio section -->
-
-
-
-
-
-                <footer>
-                    <div class="container">Contact Me</div>
-
             </div>
+
+            <!-- end Portfolio section -->
+
+            <hr>
+
+            <footer>
+
+                <section>
+                    <div id="contactme" class="contactme">
+                        <h2>Contact Me</h2>
+                        <div class="contactmecontainer">
+
+                            <div id="contactmeLinkedin">
+                                <a target="_blank"
+                                    href="https://www.linkedin.com/in/alliesoliz">
+                                    <img src="images/LinkedIn.png" class="float-right"
+                                        alt="link to my linkedin profile" />
+                                    <div class="text-block">
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div id="contactmeGithub">
+                                <a target="_blank" href="https://www.github.com/azs6189">
+                                    <img src="./images/GitHub.png" class="float-right"
+                                        alt="link to my github profile" />
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
             </footer>
 
         </div>
