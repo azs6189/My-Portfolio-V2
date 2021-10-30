@@ -1,4 +1,4 @@
-# My-Portfolio-V2
+# My-Portfolio-V1
 Introduction: Allie Soliz
 
 My Portfolio repo is a web page that contains an introduction of myself in the 'About Me' section. 
