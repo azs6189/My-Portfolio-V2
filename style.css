@@ -1,113 +1,105 @@
 /* begin css styling */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    color: #404040;
-    font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: #404040;
+	font-family: "Open Sans", sans-serif;
 }
 
 /* break styling */
 hr {
-    color: rgba(75, 74, 74, 0.801)
+	color: rgba(75, 74, 74, 0.801);
 }
 
 /* About Me styling */
 #aboutMePic {
-    max-height: 150px;
-    border-style: solid;
-    border-color: white;
+	max-height: 150px;
+	border-style: solid;
+	border-color: white;
 
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 /* button styling */
 
 a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-    color: darkgrey;
+	color: darkgrey;
 }
 
 /* Portfolio styling */
 .portfolio {
-    padding-top: 5px;
-    height: 230px;
-    margin: 5px;
-    
+	padding-top: 5px;
+	height: 230px;
+	margin: 5px;
 }
 .projects {
-    display: flex;
-    border-style: solid;
-    border-color: lightgrey;
-    max-height: 160px;
-    border-radius: px;
-padding: -7px;
-margin: 10px;
+	display: flex;
+	border-style: solid;
+	border-color: lightgrey;
+	max-height: 160px;
+	border-radius: px;
+	padding: -7px;
+	margin: 10px;
 }
-.portfolio img{
-    max-height: 150px;
-
+.portfolio img {
+	max-height: 150px;
 }
 
 .projectsContainer {
-    align-content: center;
-    position: relative;
-    display: flex;
- 
+	align-content: center;
+	position: relative;
+	display: flex;
 }
 
 .text-block {
-    position: absolute;
-    background-color: white;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    bottom: 13px;
-
+	position: absolute;
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: 13px;
 }
 
 .text-block h3 {
-    font-size: 13px;
-    margin-bottom: 5px;
-
+	font-size: 13px;
+	margin-bottom: 5px;
 }
 
 .text-block p {
-    font-size: 9px;
-    margin-bottom: -1px;
-    margin-top: -5px;
-
+	font-size: 9px;
+	margin-bottom: -1px;
+	margin-top: -5px;
 }
 
 /* Contact Me styling */
 
 .contactme {
-    padding: 5px;
-    height: 60px;
-
-    margin: 10px;
+	margin: 10px;
+	position: absolute;
 }
 
 .contactmecontainer {
-    display: flex;
-    justify-content: space-evenly;
-} 
-
-#contactmeLinkedin img{
-    max-height: 40px;
-    border-style: solid;
-    border-color: #81d8d0;
-    border-radius: 10%;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-#contactmeGithub img{
-    max-height: 40px;
-    border-style: solid;
-    border-color: #81d8d0;
-    border-radius: 50%;
+#contactmeLinkedin img {
+	max-height: 40px;
+	border-style: solid;
+	border-color: #81d8d0;
+	border-radius: 10%;
+}
+
+#contactmeGithub img {
+	max-height: 40px;
+	border-style: solid;
+	border-color: #81d8d0;
+	border-radius: 50%;
 }
